@@ -1,8 +1,6 @@
-n = input("What's my favorite food? ")
-if n == "cookies" :
-    print("Yep! So amazing!")
-else :
-    print("Yuck! That's not it!")
+def favorite_city(name):
+    print("One of my favorite cities is ",name)
 
-print("Thanks for playing!")
-
+favorite_city( "Mansoura")
+favorite_city("Alexandria")
+favorite_city("cairo")
